@@ -16,7 +16,7 @@ const (
 )
 
 func main() {
-	err := os.Setenv("DATA_SOURCE_URL", "root:@tcp(127.0.0.1:3306)/payment21")
+	err := os.Setenv("DATA_SOURCE_URL", "root:parola123@tcp(127.0.0.1:3306)/payment123")
 	if err != nil {
 		return
 	}
